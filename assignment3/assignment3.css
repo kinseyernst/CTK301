@@ -1,0 +1,33 @@
+#ctkid { 
+    color: red;
+    background-color: black;
+}
+
+.ctkclass {
+    color: white;
+    background-color: red;
+}
+
+.h3class {
+    color: lightslategray;
+    background-color: darkred;
+}
+
+
+a {
+    color: red;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: green;
+  }
+
+  a:hover {
+    color: yellow;
+    text-decoration: underline;
+  }        
+
+  .spanstyle {
+    color: red
+}
