@@ -1,0 +1,54 @@
+a {
+    color: lightgreen ;
+    text-decoration: none;
+  }
+
+  a:hover { 
+    color: red;
+    text-decoration: underline;
+  }
+
+  .top {
+    background-color: rgb(170, 141, 228);
+  }
+
+  #poison {
+    color: white;
+  }
+
+  .fires {
+    color: blue;
+  }
+
+  .spanstyle {
+    color: orange;
+  }
+
+  .inferno {
+    background-color: yellow;
+  }
+
+  .taxi {
+    color: red;
+  }
+
+  .father {
+    color: yellow;
+    background-color: green;
+  }
+
+  .art { 
+    background-color: lightgreen;
+  }
+
+  .daughter{
+    background-color: yellow;
+  }
+
+  .five {
+    color: red;
+  }
+
+  .list {
+    text-decoration: none;
+  }
