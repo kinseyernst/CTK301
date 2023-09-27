@@ -1,0 +1,73 @@
+.waves {
+    background-image:url(a5bg.png) ;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    color: white;
+    width: 140px;
+    margin: 10px;
+    background-color: darkblue;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+nav li a:hover {
+    background-color: blue;
+}
+
+.back {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.headone {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    background-color: white;
+    padding: 20px;
+}
+
+.headtwo {
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+}
+
+.justify {
+    text-align: justify;
+}
+
+p a {
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+footer {
+    color: white;
+    background-color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    border: 2px solid white;
+    text-align: center;
+    padding: 20px ;
+}
