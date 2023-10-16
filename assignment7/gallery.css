@@ -1,0 +1,152 @@
+body {
+    background-color: gray;
+}
+
+main {
+    background-color: white;
+    border: 4px solid darkblue;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 1em auto;
+    padding: 0;
+    width: 1200px;
+}
+
+nav a {
+    color: lightblue;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover {
+    color: white;
+    list-style: none;
+}
+
+nav li a {
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    background-image: linear-gradient(to top, darkblue, blue,lightblue);
+    display: block;
+    list-style: none;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-image: linear-gradient(to bottom, darkblue, blue,lightblue);
+    color: white;
+    font-weight: bold;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.top {
+    background-image: linear-gradient(to top, darkblue, blue,lightblue);
+    grid-column: span 12;
+}
+
+h1 {
+    color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    padding: 20px;
+}
+
+
+.evelyn {
+    float: left;
+    grid-column: span 4;
+    padding: 10px;
+}
+
+.evelyn-h2 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 3px solid blue;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.leftpic {
+    width: 250px;
+    padding-left: 50px;
+}
+
+.waymond {
+    grid-column: span 4;
+    padding: 10px;
+}
+
+.waymond-h2 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 3px solid blue;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.midpic {
+    width: 250px;
+    padding-left: 50px;
+}
+
+.joy {
+    grid-column: span 4;
+    padding: 10px;
+}
+
+.joy-h2 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 3px solid blue;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.rightpic {
+    width: 250px;
+    padding-left: 50px;
+}
+
+p a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    color: green;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer {
+    background-color: red;
+    border-top: 4px solid darkblue;
+    padding: 10px;
+    grid-column: span 12;
+}
+
+h1 {
+    color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    padding: 20px;
+}
+
+h1 a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: red;
+    text-decoration: underline;
+}
