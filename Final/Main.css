@@ -13,13 +13,8 @@ body {
 }
 
 .header .logo {
-  font-size: 25px;
-  font-family: euphoria script;
-  font-weight: bold;
-  font-style: italic;
-  color: #000;
-  text-decoration: none;
   margin-left: 30px;
+  width: 100px;
 }
 
 .nav-items {
@@ -98,6 +93,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 0 40px;
+  font-family: shizuru;
 }
 
 .achievements .work i {
@@ -116,10 +112,23 @@ body {
   margin: 10px 0;
 }
 
+.proj-link {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+.proj-link :hover {
+  text-decoration: underline;
+  color: #302f49;
+}
+
 .achievements .work .work-text {
   font-size: 15px;
   color: #585858;
   margin: 10px 0;
+  font-family: sans-serif;
+  text-align: center;
 }
 
 .about-me {

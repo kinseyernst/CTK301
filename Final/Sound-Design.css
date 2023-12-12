@@ -12,13 +12,8 @@ body {
   }
   
   .header .logo {
-    font-size: 25px;
-    font-family: euphoria script;
-    font-weight: bold;
-    font-style: italic;
-    color: #000;
-    text-decoration: none;
     margin-left: 30px;
+    width: 100px;
   }
   
   .nav-items {
@@ -38,16 +33,57 @@ body {
 /*End Navigation & Header*/
 
 
+/*Body aka wish me luck with grids*/
+
+h1 {
+  text-align: center;
+  font-family: shizuru;
+}
+
+h2 {
+  text-align: center;
+  color: #302f49;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 1em auto;
+    padding: 0;
+}
+
+#narrative {
+  grid-column: span 6;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
 
 
 
+#recompose {
+  grid-column: span 6;
+  margin: 10px;
+  padding: 10px;
+}
 
+#EQ {
+  grid-column: span 6;
+  margin: 10px;
+  padding: 10px;
+}
 
+#underscore {
+  grid-column: span 6;
+  margin: 10px;
+  padding: 10px;
+}
 
-
-
-
-
+#bt {
+  grid-column: span 6;
+  margin: 10px;
+  padding: 10px;
+}
 
 /* CSS for footer */
 .footer {
